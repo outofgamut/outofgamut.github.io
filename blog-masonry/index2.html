@@ -9,27 +9,37 @@ section_id: blog
   <div class='row'>
     <div class='large-12 columns'>
       <div class='masonry-container'>
+
+      {% for post in paginator.posts %}
         <div class='masonry mod modBlogPost'>
           <div class='images'>
-            <div class='image'><a href="single.html"><img width="800" height="533" alt="" src="../images/@stock/blog-1.jpg" /></a></div>
-            <div class='image'><a href="single.html"><img width="800" height="533" alt="" src="../images/@stock/blog-2.jpg" /></a></div>
+            {% if post.image %}
+              <div class='image'><img alt="" src="{{site.url}}/{{post.image}}" /></div>
+            {% endif %}
           </div>
           <div class='content'>
-            <p class='date'>December 15, 2014</p>
-            <h4><a href="#">tom is designing the new site</a></h4>
+            <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
+            <h4><a href="{{post.url}}">{{post.title}}</a></h4>
             <p>
-              Iste neque doloribus dolor quis ad sit dolores dolor sit perferendis. nemo in rerum ducimus possimus aspernatur quas est. dolorem eaque vel.
+              {{post.excerpt}}
             </p>
             <div class='tags'>
-              <a href="#">Design</a>
-              ,
-              <a href="#">Business</a>
+                {% for cat in post.categories %}
+                  <a href="#">{{cat}}</a>
+                  {% unless forloop.last %}
+                      ,
+                  {% endunless %}
+                {% endfor %}
             </div>
           </div>
         </div>
+      {% endfor %}
+
+
+
         <div class='masonry mod modBlogPost'>
           <div class='content'>
-            <p class='date'>December 15, 2014</p>
+            <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
             <h4><a href="#">A Post without image</a></h4>
             <p>
               Laboriosam labore recusandae voluptas autem incidunt. voluptatem voluptatem tenetur ab doloribus quos voluptate culpa et voluptatem. ipsa voluptatem dicta magnam eaque. asperiores qui incidunt praesentium et eaque quisquam tempore ut non non repellendus aut est atque
