@@ -5,7 +5,7 @@ date:   2015-03-27 10:57:12
 image: images/@stock/blog-4.jpg
 excerpt:
   Nisi quas minima cumque et voluptate. et et iure nostrum necessitatibus et ipsam sed doloribus ab odio. voluptates velit et quaerat qui
-categories: Bussiness
+categories: Business
 tags: design business
 author: honryou
 ---

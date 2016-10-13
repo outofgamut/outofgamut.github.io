@@ -5,7 +5,7 @@ date:   2015-04-28 08:59:59
 categories: jekyll
 tags: design business
 image: images/@stock/blog-1.jpg
-author: honryou
+author: john
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
