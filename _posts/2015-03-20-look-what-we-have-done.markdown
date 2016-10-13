@@ -8,7 +8,7 @@ excerpt:
 categories:
   - Web Design
 tags: logo development
-author: honryou
+author: john
 ---
 
 

@@ -7,7 +7,7 @@ excerpt:
   Nisi quas minima cumque et voluptate. et et iure nostrum necessitatibus et ipsam sed doloribus ab odio. voluptates velit et quaerat qui
 categories: Business
 tags: design business
-author: honryou
+author: john
 ---
 
 
