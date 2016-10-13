@@ -1,8 +1,8 @@
 # Site settings
 title: John Salvie
 email: jsalvie@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  John Salvie. Dallas, Texas. Software consultant, web developer, designer.
+description: "Software consultant specializing in custom development and product management.
+Dallas, TX."
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: outofgamut
